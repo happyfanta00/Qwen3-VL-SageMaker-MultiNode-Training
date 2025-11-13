@@ -32,5 +32,5 @@ python download_coco_caption.py
 | ------------- | --------------- |------------------ |-------|
 | g6e.48xlarge  |  1              | 128 | 25:05 |
 | g6e.48xlarge  |  2              | 128 | 13:32 |
-| g6e.48xlarge  |  4              | 256 | N/A |
+| g6e.48xlarge  |  4              | 256 | 7:21 |
 | p5.48xlarge   |  1              | 256 | N/A |
