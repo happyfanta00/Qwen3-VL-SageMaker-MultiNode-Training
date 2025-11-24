@@ -5,6 +5,8 @@
 数据格式请参考[Qwen3-VL官方repo](https://github.com/QwenLM/Qwen3-VL/tree/main/qwen-vl-finetune)，数据集定义位于[src/qwenvl/data/__init__.py](src/qwenvl/data/__init__.py)文件中，本代码库提供了[COCO Caption](https://huggingface.co/datasets/lmms-lab/COCO-Caption2017)作为训练数据的样例，使用以下脚本下载并构建训练集：
 
 ```
+bash #使用notebook的terminal时推荐首先切换到bash
+
 pip install datasets pillow
 
 python download_coco_caption.py
